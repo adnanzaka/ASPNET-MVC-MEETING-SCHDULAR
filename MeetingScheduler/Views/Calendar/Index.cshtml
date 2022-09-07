@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Meeting Scheduler";
+}
+<script type="text/javascript">
+        $(document).ready(function () {
+            initialize();
+        }); 
+</script>
+
+<div>
+    <h1>Calendar</h1>
+    <div class="col-md-12" id="Loader"></div>
+    <div>
+        <div>Choose your Month</div>
+        
+        <div class="col-sm-12 mt-25">
+            <div class="col-sm-1 month" id="1">Jan</div>
+            <div class="col-sm-1 month" id="2">Feb</div>
+            <div class="col-sm-1 month" id="3">Mar</div>
+            <div class="col-sm-1 month" id="4">Apr</div>
+            <div class="col-sm-1 month" id="5">May</div>
+            <div class="col-sm-1 month" id="6">Jun</div>
+            <div class="col-sm-1 month" id="7">Jul</div>
+            <div class="col-sm-1 month" id="8">Aug</div>
+            <div class="col-sm-1 month" id="9">Sep</div>
+            <div class="col-sm-1 month" id="10">Oct</div>
+            <div class="col-sm-1 month" id="11">Nov</div>
+            <div class="col-sm-1 month" id="12">Dec</div>
+        </div>
+
+    </div>
+
+
+    <div class="col-sm-12 mt-50">
+        <div class="col-sm-5 meetingContainer" id="divMeetings"></div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-6 meetingContainer" id="divMeetingDetail"></div>
+    </div>
+
+</div>
